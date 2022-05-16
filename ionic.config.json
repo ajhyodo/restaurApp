@@ -1,0 +1,7 @@
+{
+  "name": "restaurApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
