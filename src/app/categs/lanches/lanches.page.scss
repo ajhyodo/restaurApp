@@ -1,3 +1,17 @@
+h1 {
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+ion-item {
+    --padding-start: 10px;
+    --inner-padding-end: 10px;
+    ion-thumbnail {
+        height: 100%;
+        margin-inline-end: 10px;
+    }
+}
+
 .ion-color-laranja {
     --ion-color-base: var(--ion-color-laranja);
     --ion-color-base-rgb: var(--ion-color-laranja-rgb);
