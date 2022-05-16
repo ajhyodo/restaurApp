@@ -1,0 +1,30 @@
+<ion-header>
+    <ion-toolbar color="laranja">
+        <ion-buttons slot="start">
+            <ion-back-button> </ion-back-button>
+        </ion-buttons>
+        <ion-thumbnail slot="start">
+            <img src="https://static.vecteezy.com/ti/vetor-gratis/t2/5285093-prato-de-servir-chef-gordo-com-bigode-segurando-gr%C3%A1tis-vetor.jpg" />
+        </ion-thumbnail>
+        <ion-title>
+            Detalhes
+        </ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-card>
+        <ion-card-header>
+            <ion-card-title>{{titulo}}</ion-card-title>
+            <img src={{imagem}} />
+            <ion-card-subtitle>{{subTitulo}}</ion-card-subtitle>
+        </ion-card-header>
+
+        <ion-card-content>
+            <div>
+                <p>{{detalhe}}</p>
+                <p>Pre&ccedil;o: {{preco}}</p>
+            </div>
+        </ion-card-content>
+    </ion-card>
+</ion-content>
