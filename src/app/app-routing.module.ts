@@ -11,6 +11,26 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path: 'pratod',
+    loadChildren: () => import('./categs/pratod/pratod.module').then( m => m.PratodPageModule)
+  },
+  {
+    path: 'refeicao',
+    loadChildren: () => import('./categs/refeicao/refeicao.module').then( m => m.RefeicaoPageModule)
+  },
+  {
+    path: 'lanches',
+    loadChildren: () => import('./categs/lanches/lanches.module').then( m => m.LanchesPageModule)
+  },
+  {
+    path: 'sobremesas',
+    loadChildren: () => import('./categs/sobremesas/sobremesas.module').then( m => m.SobremesasPageModule)
+  },
+  {
+    path: 'bebidas',
+    loadChildren: () => import('./categs/bebidas/bebidas.module').then( m => m.BebidasPageModule)
+  },
 ];
 
 @NgModule({
