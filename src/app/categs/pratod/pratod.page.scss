@@ -20,3 +20,21 @@ ion-item {
     --ion-color-shade: var(--ion-color-laranja-shade);
     --ion-color-tint: var(--ion-color-laranja-tint);
 }
+
+p {
+    font-size: medium;
+    color: black;
+}
+
+ion-item {
+    --padding-start: 10px;
+    --inner-padding-end: 10px;
+    ion-thumbnail {
+        height: 50%;
+        margin-inline-end: 10px;
+    }
+}
+
+img {
+    max-width: 40%;
+}

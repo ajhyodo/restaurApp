@@ -50,10 +50,6 @@ const routes: Routes = [
     loadChildren: () =>
       import('./item/itempd/itempd.module').then((m) => m.ItempdPageModule),
   },
-  {
-    path: 'pdia',
-    loadChildren: () => import('./pdia/pdia/pdia.module').then( m => m.PdiaPageModule)
-  },
 ];
 
 @NgModule({

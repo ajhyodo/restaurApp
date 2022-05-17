@@ -7,26 +7,39 @@
             <img src="https://static.vecteezy.com/ti/vetor-gratis/t2/5285093-prato-de-servir-chef-gordo-com-bigode-segurando-gr%C3%A1tis-vetor.jpg" />
         </ion-thumbnail>
         <ion-title>
-            Prato do Dia
+            Lanches
         </ion-title>
     </ion-toolbar>
 
 </ion-header>
 
 <ion-content>
-    <ion-list lines="full" color="light">
+    <ion-card>
+        <ion-card-header>
+            <ion-card-title>Oferta do Dia</ion-card-title>
+            <ion-list lines="full" color="light">
+                <ion-item>
+                    <img src="https://images.aws.nestle.recipes/resized/92f7fa4ac9e6fb6176446b1595fd51ae_batata-chips-receitas-nestle_1200_600.jpg" /> Batata Chips.
+                </ion-item>
+                <ion-item>
+                    <img src="https://www.anamariabrogui.com.br/assets/uploads/receitas/fotos/usuario-2077-b65fe4f97c5c133943a8438502f1e2bd_medium.jpg.webp" /> Bife Acebolado
+                </ion-item>
+                <ion-item>
+                    <img src="https://pastapizza.com.br/wp-content/uploads/2021/09/Lata-Coca-Cola.jpg" /> Coca-Cola
+                </ion-item>
+                <ion-item>
+                    <img src="https://amoradoceria.com.br/wp-content/uploads/2022/03/receita-pudim-simples-de-leite-500x500.jpg" /> pudim de leite
+                </ion-item>
+            </ion-list>
+            <ion-card-subtitle></ion-card-subtitle>
+        </ion-card-header>
 
-        <ion-item routerLink="/itempd/d01">
-            <ion-thumbnail slot="start">
-                <img src="" />
-            </ion-thumbnail>
-            <ion-label class="ion-text-wrap">
-                <div>
-                    <h1> - R$ 5,00</h1>
-                </div>
-            </ion-label>
-        </ion-item>
-
-    </ion-list>
+        <ion-card-content>
+            <div>
+                <p>Batata Chips, Bife Acebolado, coca-cola de 350ml e pudim de leite.</p>
+                <p>Por apenas R$ 45,00</p>
+            </div>
+        </ion-card-content>
+    </ion-card>
 
 </ion-content>
